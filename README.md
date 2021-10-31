@@ -1,6 +1,8 @@
 
 # Rendu du TP 1,2,3 et 4
 
+Architecture MVVM avec plusieurs source de données. 
+
 ## Fonctionnalités du TP:
 
 ### Barre de menu :
