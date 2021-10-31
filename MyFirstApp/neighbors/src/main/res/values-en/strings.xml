@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">neighbors</string>
+    <string name="titleAddNeighbor">New neighbor</string>
+    <string name="titleEditNeighbor">Edit neighbor</string>
+    <string name="titleListNeighbor">List of neighbors</string>
+    <string name="image">Image url</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="website">Website url</string>
+    <string name="adresse">Address mail</string>
+    <string name="a_propos_de_moi">Description</string>
+    <string name="enregistrer">Save</string>
+    <string name="dialogueRemove">"Do you want remove this neighbor ?"</string>
+    <string name="dialogueYes">Yes</string>
+    <string name="dialogueNo">No</string>
+    <string name="switche">Switch</string>
+    <string name="detail">Neighbor details</string>
+</resources>

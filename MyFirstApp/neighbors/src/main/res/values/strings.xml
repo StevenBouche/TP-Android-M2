@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">neighbors</string>
+    <string name="titleAddNeighbor">Nouveau voisin</string>
+    <string name="titleEditNeighbor">Edition voisin</string>
+    <string name="titleListNeighbor">Liste des voisins</string>
+    <string name="image">Image url</string>
+    <string name="name">Nom</string>
+    <string name="phone">Télèphone</string>
+    <string name="website">Site internet</string>
+    <string name="adresse">Adresse mail</string>
+    <string name="a_propos_de_moi">A propos de moi</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="dialogueRemove">Voulez vous supprimer ce voisin ?</string>
+    <string name="dialogueYes">Oui</string>
+    <string name="dialogueNo">Non</string>
+    <string name="switche">Switch</string>
+    <string name="detail">Details voisin</string>
+</resources>

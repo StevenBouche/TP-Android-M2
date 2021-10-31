@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="141dp"
+        android:layout_height="141dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/create_image"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="391dp"
+        android:layout_height="65dp"
+        android:hint="@string/image">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/create_image_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/create_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="391dp"
+        android:layout_height="65dp"
+        android:hint="@string/name">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/create_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/create_phone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="391dp"
+        android:layout_height="65dp"
+        android:hint="@string/phone"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/create_phone_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="phone"
+            android:minHeight="48dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/create_website"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="391dp"
+        android:layout_height="65dp"
+        android:hint="@string/website">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/create_website_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/create_adresse"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="391dp"
+        android:layout_height="65dp"
+        android:hint="@string/adresse">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/create_adresse_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/create_about"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="391dp"
+        android:layout_height="118dp"
+        android:hint="@string/a_propos_de_moi"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/create_about_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:text="@string/enregistrer" />
+
+</LinearLayout>
+
